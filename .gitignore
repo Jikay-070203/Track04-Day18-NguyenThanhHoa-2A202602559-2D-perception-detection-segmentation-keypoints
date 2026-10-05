@@ -3,9 +3,9 @@
 datasets/
 
 # Kết quả train / file trung gian (sinh lại được)
-runs/
+/runs/
 runs_lab/
-autolabel/
+/autolabel/
 tiger-pose-anat.yaml
 tiger-pose-mirror.yaml
 tiger-pose-mirror/
@@ -16,3 +16,5 @@ __pycache__/
 .ipynb_checkpoints/
 .venv*/
 .DS_Store
+onnx_hw/
+*.onnx
